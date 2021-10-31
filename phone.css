@@ -1,0 +1,199 @@
+@media screen and (max-width: 850px) {
+    body{
+        width: 375px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .rightHeader nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .header .rightHeader a{
+        margin: auto;
+    }
+    .header .rightHeader li{
+        padding-top: 15px;
+    }
+
+    .header .logo img{
+        width: 150px;
+        height: 50px;
+        padding-top: 30px;
+    }
+
+    main #home .first{
+        color: white;
+        font-weight: bolder;
+        margin-top: 0;
+        position: relative;
+        word-wrap: break-word;
+        left: 10%;
+        top: 45.5%;
+        font-size: 1em;
+        letter-spacing: 2px;
+        width: 250px;
+        margin: 0;
+
+    }
+    
+    main #home .second{
+        color: white;
+        font-weight: bolder;
+        position: relative;
+        word-wrap: break-word;
+        left: 25%;
+        top: 45%;
+        font-size: 1em;
+        letter-spacing: 2px;
+        width: 250px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    main #home .second::before{
+        height:7px;
+        width:70px;
+    }
+
+    main #esprit .tete h1{
+        padding-top: 10px;
+    }
+
+    main #esprit .corps{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #esprit .corps .left{
+        width: 350px;
+        word-wrap: break-word;
+    }
+
+    main #esprit .corps .left .element1 h3::after{
+        width:136px;
+    }
+
+    main #esprit .corps .left .element2 h3::before{
+        width:163px;
+    }
+
+    main #esprit .corps .left .element3 h3::after{
+        width:183px;
+    }
+
+    main #esprit .corps .right{
+        width: 350px;
+    }
+    
+    main #grattes .tete2 h1{
+        padding-left: 10px;
+        word-wrap: break-word;
+    }
+
+    #grattes .corps2 .gamme{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #grattes .corps2 .description{
+        width: 350px;
+    }
+
+    #grattes .corps2 .gamme .guitare1{
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    #grattes .corps2 .gamme .guitare1 p{
+        padding-top: 0;
+        margin-top:0;
+    }
+
+    #grattes .corps2 .gamme .guitare1 h3{
+        margin-bottom:10px;
+    }
+
+    #grattes .corps2 .gamme .guitare2{
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    #grattes .corps2 .gamme .guitare2 h3{
+        margin-bottom:10px;
+    }
+
+    #grattes .corps2 .gamme .guitare2 p{
+        padding-top: 0;
+        margin-top:0;
+    }
+
+    #grattes .corps2 .gamme .guitare3{
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    #grattes .corps2 .gamme .guitare3 h3{
+        margin-bottom:10px;
+    }
+
+    #grattes .corps2 .gamme .guitare3 p{
+        padding-top: 0;
+        margin-top:0;
+    }
+
+    #grattes .corps2 .gamme .guitare4 h3{
+        margin-bottom:10px;
+    }
+
+    #grattes .corps2 .gamme .guitare4 p{
+        padding-top: 0;
+        margin-top:0;
+    }
+
+    main #contact .tete h1{
+        word-wrap: break-word;
+        padding-left:15px;
+        padding-top: 0px;
+        margin-top: 25px;
+    }
+
+    #contact .corps3{
+        width: 375px;
+    }
+
+    #contact .corps3 .form1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+    }
+
+    #contact .corps3 .form1 .rightForm .phone{
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+
+    #contact .corps3 .com form textarea{
+        width: 375px;
+    }
+}

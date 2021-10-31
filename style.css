@@ -1,0 +1,623 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    
+    margin: auto;
+}
+
+/*Debut header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-bottom: 8px solid #B14949;
+}
+
+.header .logo img{
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.header .rightHeader nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.header .rightHeader nav li{
+    margin-top: 10px;
+}
+
+.header .rightHeader nav .ctct{
+    margin-top: 5px;
+}
+
+.header .rightHeader a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-weight: bold;
+    padding:5px;
+    letter-spacing: 5px;
+}
+
+.header .rightHeader .esprit{
+    color: #444444;
+    padding-top:8px;
+}
+
+.header .rightHeader .esprit:hover{
+    background-color: #B14949;
+    border-radius: 5px;
+    color: #F2F2F2;
+    padding: 5px;
+}
+
+.header .rightHeader .esprit:active{
+    background-color: #6e0000;
+}
+
+.header .rightHeader .grattes{
+    color: #444444;
+    padding-top:8px;
+}
+
+.header .rightHeader .grattes:hover{
+    background-color: #B14949;
+    border-radius: 5px;
+    color: #F2F2F2;
+    padding: 5px;
+}
+
+.header .rightHeader .grattes:active{
+    background-color: #6e0000;
+}
+
+.header .rightHeader .contact{
+    color: #B14949;
+    border: 1px solid #B14949;
+    border-radius: 5px;
+    padding:5px;
+    margin-top: 10px;
+}
+
+.header .rightHeader .contact::before{
+    content:url(images/letterr.png);
+    vertical-align: middle;
+    margin-right: 5px;
+    width:25px;
+    height: 25px;
+}
+
+.header .rightHeader .contact:hover{
+    background-color: #B14949;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    color: #F2F2F2;
+    padding: 5px;
+}
+
+.header .rightHeader .contact:active{
+    background-color: #6e0000;
+}
+/*Fin header */
+
+/*Debut section accueil */
+main #home {
+    background-image: url(images/bakground.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+main #home .first{
+    color: white;
+    font-weight: bolder;
+    margin-top: 0;
+    position: relative;
+    left: 40%;
+    top: 60%;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    width: 600px;
+}
+
+main #home .second{
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    left: 40%;
+    top: 55%;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    width: 650px;
+}
+
+main #home .second::before{
+    display: inline-block;
+    vertical-align: middle;
+    height:7px;
+    width:250px;
+    background:#F2F2F2;
+    content:"";
+    margin-right: 10px;
+}
+
+/*Fin section accueil */
+
+/*Debut section esprit */
+main #esprit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+main #esprit .tete{
+    background-color: #B14949;
+    width: auto;
+    height: 80px;
+}
+
+main #esprit .tete h1{
+    color: #F2F2F2;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+main #esprit .corps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bolder;
+}
+
+main #esprit .corps .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+}
+
+main #esprit .corps .left .element1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main #esprit .corps .left .element1 h3::after{
+    display: inline-block;
+    vertical-align: middle;
+    height:7px;
+    width:335px;
+    background:#B14949;
+    content:"";
+    margin-left: 10px;
+}
+
+main #esprit .corps .left p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+main #esprit .corps .left .element2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main #esprit .corps .left .element2 h3::before{
+    display: inline-block;
+    vertical-align: middle;
+    height:7px;
+    width:364px;
+    background:#B14949;
+    content:"";
+    margin-right: 10px;
+}
+
+main #esprit .corps .left .element3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main #esprit .corps .left .element3 h3::after{
+    display: inline-block;
+    vertical-align: middle;
+    height:7px;
+    width:383px;
+    background:#B14949;
+    content:"";
+    margin-left: 10px;
+}
+
+#esprit .corps .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+#esprit .corps .right .deuxPhotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#esprit .corps .right .deuxPhotos .pic1{
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+#esprit .corps .right .deuxPhotos .pic2{
+    width: 150px;
+    height: 300px;
+}
+
+#esprit .corps .right .unePhoto .pic3{
+    width: 360px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+/*Fin section esprit */
+
+/*Debut section grattes */
+
+main #grattes .tete2{
+    background-color: #B14949;
+    height: 80px;
+}
+
+main #grattes .tete2 h1{
+    color: #F2F2F2;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-left: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#grattes .corps2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+
+#grattes .corps2 .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+}
+
+#grattes .corps2 .description p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+#grattes .corps2 .description h3{
+    margin-top: 0;
+}
+
+#grattes .corps2 .description h3::after{
+    display: inline-block;
+    vertical-align: middle;
+    height:7px;
+    width:150px;
+    background:#B14949;
+    content:"";
+    margin-left: 10px;
+}
+
+#grattes .corps2 .gamme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#grattes .corps2 .gamme h3{
+    word-wrap: break-word;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#grattes .corps2 .gamme .guitare1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+}
+
+#grattes .corps2 .gamme .guitare1 p{
+    padding-top: 25px;
+}
+
+#grattes .corps2 .gamme .guitare1 img{
+    
+    height: 250px;
+}
+
+#grattes .corps2 .gamme .guitare2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+}
+
+#grattes .corps2 .gamme .guitare2 .discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#grattes .corps2 .gamme .guitare2 .discount .barre{
+    text-decoration:line-through;
+    margin-right: 10px;
+}
+
+#grattes .corps2 .gamme .guitare2 img{
+    height: 250px;
+}
+
+#grattes .corps2 .gamme button{
+    background-color: #B14949;
+    color: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#grattes .corps2 .gamme button:hover{
+    background-color: #B14949;
+}
+
+#grattes .corps2 .gamme button:active{
+    background-color: #6e0000;
+}
+
+#grattes .corps2 .gamme .guitare3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+}
+
+#grattes .corps2 .gamme .guitare3 img{
+    height: 250px;
+}
+
+#grattes .corps2 .gamme .guitare4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+}
+
+#grattes .corps2 .gamme .guitare4 img{
+    height: 250px;
+}
+
+/*Fin section grattes */
+
+/*Debut section contact */
+main #contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+main #contact .tete{
+    background-color: #B14949;
+    width: auto;
+    height: 80px;
+}
+
+main #contact .tete h1{
+    color: #F2F2F2;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+
+
+#contact .corps3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    
+}
+
+#contact .corps3 h3{
+    padding-top: 25px;
+}
+
+
+ #contact .corps3 h3::before{
+    display: inline-block;
+    vertical-align: middle;
+    height:7px;
+    width:150px;
+    background:#B14949;
+    content:"";
+    margin-right: 10px;
+ }
+
+
+#contact .corps3 .form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px;
+    width: 800px;
+}
+
+#contact .corps3 ::placeholder{
+    color: rgb(196, 196, 196);
+}
+ 
+#contact .corps3 .form1 .rightForm{
+    margin-left: 10px;
+}
+
+#contact .corps3 .form1 .com form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .corps3 .leftForm .name input{
+    border: 2px solid #B14949;
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+#contact .corps3 .leftForm .name label{
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact .corps3 .leftForm .email{
+    margin-top: 20px;
+}
+
+#contact .corps3 .leftForm .email label{
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact .corps3 .leftForm .email input{
+    border: 2px solid #B14949;
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#contact .corps3 .rightForm .phone label{
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact .corps3 .rightForm .phone input{
+    border: 2px solid #B14949;
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+#contact .corps3 .com form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .corps3 .com .sectionCom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contact .corps3 .com form label{
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+
+#contact .corps3 .com form textarea{
+    border: 2px solid #B14949;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 533px;
+    height: 170px;
+}
+
+#contact .corps3 .com form button{
+    background-color: #B14949;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #F2F2F2;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+
+#contact .corps3 .com form button:active{
+    background-color: #b41f1f;
+    box-shadow: 2px 2px 8px #a80606 inset;
+}
+
+/*Fin section contact */
